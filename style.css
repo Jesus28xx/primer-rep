@@ -1,0 +1,50 @@
+body{
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Arial',sans-serif;
+    background-color: #f5d0aa;
+}
+header{
+    height: 100px;
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: white;
+}
+#aaa{text-decoration: none;
+color: black;}
+header a{
+    margin-right: 25px;
+}
+.logo{
+    font-size: 20px;
+    color: white;
+}
+#insignia{
+    width: 50px; 
+    height: 50px;
+}
+#primaria{
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+}
+
+#secundaria{
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+}
+.centro{display: flex; 
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    
+}
+.preview{display:flex;
+    justify-content: center;}
+main{background-color: white;
+background-size: cover;}
