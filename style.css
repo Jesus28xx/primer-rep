@@ -39,12 +39,17 @@ header a{
 .centro{display: flex; 
     flex-direction: column;
     background-color: white;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background-size: cover;
     
 }
 .preview{display:flex;
     justify-content: center;}
+
+
 main{background-color: white;
-background-size: cover;}
+background-size: cover;
+margin: 0;
+padding: 0;
+height: 100%;}
